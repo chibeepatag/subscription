@@ -109,6 +109,7 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    worldpay (1.0.6)
 
 PLATFORMS
   x86-mingw32
@@ -126,6 +127,7 @@ DEPENDENCIES
   turbolinks
   tzinfo-data
   uglifier (>= 1.3.0)
+  worldpay
 
 BUNDLED WITH
    1.10.6

@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'options/chargebee'
   get 'options/chargify'
   get 'options/stripe'
+  get 'options/worldpay'
+  post 'options/worldpay_pay'
   get 'options/thankyou'
 
   

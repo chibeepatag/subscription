@@ -3,7 +3,7 @@
 Evaluation of Recurring Payment Platforms
 
 * Chargify - run with chargify_direct_example (bundle exec rackup)
-* Chargbee
+* Chargebee
 * Recurly
 * Braintree
 * Stripe
