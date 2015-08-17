@@ -1,25 +1,81 @@
-
-<div class="container">
-  <h1>World Pay</h1>  
-  <div class="row">
-    <div class="col-md-4" style="background-color:#f5a430;">
-      <h2>Basic</h2>
-      <h1>$30/month</h1>
-      <p>1000 transaction lines</p>
-      <p>Classification using tags</p>
-      <p>Email Invoice</p>      
-      <p><a class="btn btn-primary btn-lg" href="worldpay_form" role="button">Sign up</a></p>
-    </div>
-    <div class="col-md-4" style="background-color:#f58330;">
-      <h2>Professional</h2>
-      <h1>$29/month</h1>
-      <p>Basic plus...</p>
-      <p>Unlimited Transaction Lines</p>
-      <p>Customer Loyalty</p>
-      <p><a class="btn btn-primary btn-lg" href="worldpay_form" role="button">Sign up</a></p>
-    </div>
-  </div>
+<div class="container worldpay">
+	<h1>World Pay</h1>
+	<div class="row">
+		<div class="col-md-4" style="background-color:#C7EFCF;">
+			<h2>Basic </h2>
+			<div>				
+				<div class="radio" style="padding-left: 20px">
+					<h1>
+						<input class="add_to_bill" type="radio" id="plan30" name="optradio" value="30">
+						$30/month</h1>
+				</div>
+			</div>
+			<p>
+				1000 transaction lines
+			</p>
+			<p>
+				Classification using tags
+			</p>
+			<p>
+				Email Invoice
+			</p>
+		</div>
+		<div class="col-md-4" style="background-color:#D6D1B1;">
+			<h2>Professional</h2>
+			<div class="radio" style="padding-left: 20px">
+					<h1>
+						<input class="add_to_bill" type="radio" id="plan50" name="optradio"  value="50">
+						$50/month</h1>
+				</div>
+			<p>
+				Basic plus...
+			</p>
+			<p>
+				Unlimited Transaction Lines
+			</p>
+			<p>
+				Customer Loyalty
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4" style="background-color:#FE5F55;">
+			<h2>Add ons</h2>
+			<p>
+				<h1>$10 each</h1>
+			</p>
+			<div class="checkbox">
+				<label>
+					<input class="addon add_to_bill" type="checkbox" value="xero" class="add_to_bill">
+					Xero Integration</label>
+			</div>
+			<div class="checkbox">
+				<label>
+					<input class="addon add_to_bill" type="checkbox" value="shopify" class="add_to_bill">
+					Shopify Integration</label>
+			</div>
+			<div>
+				<label>					
+					<select class="add_to_bill txnlines" class="addon">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option> 
+					</select>
+					
+					Additional 1000 transaction lines</label> 
+			</div>
+		</div>
+		<div class="col-md-4" style="background-color:#F0B67F;">
+			<div class="summary" style="font-size: 30pt; padding: 10px"></div>
+			<p>
+				<a class="btn btn-primary btn-lg" href="worldpay_form" role="button">Sign up</a>
+			</p>
+		</div>
+	</div>
 </div>
 
-<a class="btn btn-primary btn-lg" href="https://online.worldpay.com/login" role="button">Admin Page</a>
+<a class="btn btn-primary btn-lg admin-btn" href="https://online.worldpay.com/login" role="button">Admin Page</a>
 
